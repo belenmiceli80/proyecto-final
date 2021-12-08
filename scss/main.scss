@@ -23,6 +23,16 @@
     font-weight: bold;
 }
 
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent,#DBDBDB, transparent);
+    border-radius: 6px;
+}
+
+
 
 body {
     background-color: $backgorund-color;
@@ -158,5 +168,15 @@ footer {
     }
 }
 
+@media screen and (max-width: 540px) {
+    div p {
+        display: none;
+    }
+}
 
+@media screen and (min-width: 700px) {
+    div ul {
+        display: none;
+    }
+}
 

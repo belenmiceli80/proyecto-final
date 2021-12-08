@@ -45,12 +45,19 @@
     <link rel="stylesheet" href="../css/maincss.css">
     <!-- ============ -->
 
+    <!-- ============ -->
+    <!-- ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ============ -->
+
     <title>Fotos | Halima Yamin</title>
 </head>
 <body>
     <header>
         
-        <div class="container-fluid p-0">
+        <div class="container-fluid p-0" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="750">
             <a class="navbar-brand d-flex justify-content-center" href="../index.html">
                 <img src="https://i.ibb.co/Z1NfmFt/nombre-png.png" alt="nombre-png" border="0" class="w-75">
             </a>
@@ -59,7 +66,9 @@
     </header>
 
     <nav class="navbar navbar-expand-lg navbar-light p-0">
-        <div class="container-fluid p-0">
+        <div class="container-fluid p-0" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="750">
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -93,12 +102,12 @@
 
     <main>
         
-        <div class="titulo">
+        <div class="titulo" data-aos="fade-up" data-aos-duration="800">
             <h1>Fotos</h1>
         </div>
 
         <section>
-            <div class="home">
+            <div class="home" data-aos="zoom-in" data-aos-duration="800">
                 <div id="carouselExampleFade" class="carousel slide carousel-fade w-75" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -188,6 +197,11 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 </html>

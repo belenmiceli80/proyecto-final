@@ -45,12 +45,20 @@
     <link rel="stylesheet" href="../css/maincss.css">
     <!-- ============ -->
 
+    <!-- ============ -->
+    <!-- ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ============ -->
+
     <title>Biografía | Halima Yamin</title>
 </head>
 <body>
     <header>
         
-        <div class="container-fluid p-0">
+        <div class="container-fluid p-0" 
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="750">
             <a class="navbar-brand d-flex justify-content-center p-0" href="../index.html">
                 <img src="https://i.ibb.co/Z1NfmFt/nombre-png.png" alt="nombre-png" border="0" class="w-75">
             </a>
@@ -59,7 +67,10 @@
     </header>
 
     <nav class="navbar navbar-expand-lg navbar-light p-0">
-        <div class="container-fluid p-0">
+        <div class="container-fluid p-0" 
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="750">
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -93,13 +104,25 @@
     
     <main>
         
-        <div class="titulo">
+        <div class="titulo" data-aos="fade-up" data-aos-duration="800">
             <h1>Biografía</h1>
         </div>
 
         <section class="container mt-3 mx-3">
             <div class="row">
-                <div class="col-md-9 d-flex flex-column align-items-start justify-content-center">
+                
+                <div class="col-md-9 d-flex flex-column align-items-start justify-content-center" data-aos="fade-up" data-aos-duration="800">
+                    <ul>
+                        <li class="texto">Profesora de danza clásica Estudio BailaDanza (2015).</li>
+                        <li class="texto">Profesora de danzas españolas y flamenco en Estudio BailaDanza (2015).</li>
+                        <li class="texto">Profesora de Danza Jazz Estudio BailaDanza (2018)</li>
+                        <li class="texto">Profesora de Danzas Árabes en Estudio BailaDanza (2015) y en Escuela de Danzas Árabes Saida (2018).</li>
+                        <li class="texto">Realizó la Certificación en Historia del Bellydance en Estudio Sahar (2021).</li>
+                        <li class="texto">Actualmente realiza el Profesorado en la Escuela de Yamil Annum, asiste a charlas de cultura con Ismael Adrris y realiza el Profesorado en Hsitoria del Bellydance en Estudio Sahar.</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-9 d-flex flex-column align-items-start justify-content-center" data-aos="fade-up" data-aos-duration="800">
                     
                     <p class="texto">Entra en contacto con la danza a la edad de cuatro años, comenzando a tomar clases de flamenco; a la edad de siete años comienza a realizar el profesorado de danzas clásicas y españolas, recibiéndose a la edad de dieciséis de Profesora Superior de Danzas Clásicas y Profesora Superior de Danzas Españolas de la escuela de Ines Gambetta.</p>
                     <p class="texto">Su primer contacto con la danzas árabes, con el mundo del Bellydance, lo tiene a la edad de ocho años y desde ese momento no ha dejado dicha danza; se recibe de Profesora de Danzas Árabes de la escuela de Ines Gambetta, a los dieciséis años, para luego, al año siguiente, entrar en la Escuela de Danzas Arabes Saida, ingresando en tercer año y recibiéndose en diciembre del 2018.</p>
@@ -110,7 +133,7 @@
 
                 </div>
 
-                <div class="col-md-3 d-flex px-0">
+                <div class="col-md-3 d-flex px-0" data-aos="zoom-out" data-aos-duration="800">
                     <img class="arabe" src="https://i.ibb.co/MfZBVgx/arabe-2.jpg" alt="arabe-2">
                 </div>
 
@@ -157,6 +180,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 </html>
