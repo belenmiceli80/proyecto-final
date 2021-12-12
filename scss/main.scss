@@ -112,7 +112,7 @@ footer {
     line-height: 1.875rem;
 }
 
-.bio-mobile ul {
+.bio-mobile {
     display: none;
     color: $text;
     font-family: $fuente-2;
@@ -149,6 +149,17 @@ footer {
     font-size: 1.5625rem;
 }
 
+.mail {
+    background-color: $background-color-sec;
+    width: 31.25rem;
+    height: 31.25rem;
+
+    div img {
+        @include size-1;
+        align-items: center;
+    }
+}
+
 @media screen and (max-width: 540px) {
     .frase {
         font-size: 3rem;
@@ -157,12 +168,25 @@ footer {
 
 @media screen and (max-width: 540px) {
     .texto {
-        font-size: 1rem;
+        font-size: 0.75rem;
     }
 }
 
 @media screen and (max-width: 540px) {
     .section-1 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .arabe {
+        width: 18.75rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .section {
         display: flex;
         flex-direction: column;
     }
@@ -175,7 +199,7 @@ footer {
 }
 
 @media screen and (min-width: 700px) {
-    div ul {
+    .bio-mobile ul {
         display: none;
     }
 }
