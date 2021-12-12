@@ -98,15 +98,6 @@ footer {
   background-color: #DBDBDB;
   font-size: 1.5625rem; }
 
-.mail {
-  background-color: #DBDBDB;
-  width: 31.25rem;
-  height: 31.25rem; }
-  .mail div img {
-    width: 3.125rem;
-    height: 3.125rem;
-    align-items: center; }
-
 @media screen and (max-width: 540px) {
   .frase {
     font-size: 3rem; } }
